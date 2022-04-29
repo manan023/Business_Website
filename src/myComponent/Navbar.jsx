@@ -28,6 +28,9 @@ export const Navbar = () => {
                                         <li className="nav-item">
                                             <NavLink activeclassname="menu_active" className="nav-link" to="/contact">Contact</NavLink>
                                         </li>
+                                        <li className="nav-item">
+                                            <NavLink activeclassname="menu_active" className="nav-link" to="/create">Create</NavLink>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>

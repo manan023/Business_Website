@@ -12,6 +12,7 @@ import { About }  from "./myComponent/About";
 import { Service } from "./myComponent/Service";
 import { Contact } from "./myComponent/Contact";
 import { Footer } from "./myComponent/Footer";
+import CreateResume from "./myComponent/createResume"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/service" element={<Service/>}></Route>
           <Route exact path="/about" element={<About/>}></Route>
           <Route exact path="/contact" element={<Contact/>}></Route>
+          <Route exact path="/create" element={<CreateResume/>}></Route>
         </Routes>
         <Footer/>
       </Router>

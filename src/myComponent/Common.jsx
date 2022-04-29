@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 export const Common = (props) => {
     const styleHome= {
         marginTop: "40px",
-        border: "0px solid red"
+        border: "0px solid red",
     }
     return (
         <>

@@ -1,6 +1,8 @@
 import React from 'react'
 import "./style.css";
 import { useState } from "react";
+import Button from '@mui/material/Button';
+import TextField from '@mui/material/TextField';
 
 export const Contact = () => {
     const [data, setData] = useState({
@@ -39,11 +41,14 @@ export const Contact = () => {
                         <form action="" onSubmit={formSubmit}>
                             <div className="mb-3 ">
                                 <label to="exampleFormControlInput1" className="form-label">Name</label>
-                                <input type="name" className="form-control" id="exampleFormControlInput1" placeholder="Enter your name" name='fullName' value={data.fullName} onChange={inputEvent} />
+                                <TextField fullWidth type="name" id="outlined-basic" label="Enter your name" variant="outlined" size="small" name='fullName' value={data.fullName} onChange={inputEvent}/>
                             </div>
                             <div className="mb-3 ">
                                 <label to="exampleFormControlInput1" className="form-label">Phone</label>
-                                <input type="phone" className="form-control" id="exampleFormControlInput1" placeholder="Mobile" name='phone' value={data.phone} onChange={inputEvent} />
+                                {/* <input type="phone" className="form-control" id="exampleFormControlInput1" placeholder="Mobile" name='phone' value={data.phone} onChange={inputEvent} /> */}
+
+                                <TextField fullWidth type="phone" id="outlined-basic" label="Mobile" variant="outlined" size="small" name='phone' value={data.phone} onChange={inputEvent}/>
+
                             </div>
                             <div className="mb-3 ">
                                 <label to="exampleFormControlInput1" className="form-label">Email address</label>
@@ -54,7 +59,7 @@ export const Contact = () => {
                                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" name='message' value={data.message} onChange={inputEvent}></textarea>
                             </div>
                             <div className="col-12">
-                                <button className="btn btn-primary" type="submit">Submit form</button>
+                                <Button size="medium" type="submit" variant="contained">Submit</Button>
                             </div>
                         </form>
                     </div>
