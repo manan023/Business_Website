@@ -21,7 +21,7 @@ const Header = () => {
 
         <Grid container direction="column" textAlign= "center">
             <Grid>
-                <TextField id="standard-basic"size='normal'variant="standard" defaultValue="Untitled" placeholder="Untitled" autoFocus="false" sx={styles.textFeildSx} InputProps={styles.textFeildProps} />
+                <TextField id="standard-basic"size='normal'variant="standard" defaultValue="Untitled" placeholder="Untitled" sx={styles.textFeildSx} InputProps={styles.textFeildProps} />
             </Grid>
 
             <Grid sx={styles.languageSx}>

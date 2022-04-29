@@ -6,12 +6,12 @@ import {
   Route,
   Routes
 } from "react-router-dom";
-import { Home } from "./myComponent/Home";
-import { Navbar } from "./myComponent/Navbar";
-import { About }  from "./myComponent/About";
-import { Service } from "./myComponent/Service";
-import { Contact } from "./myComponent/Contact";
-import { Footer } from "./myComponent/Footer";
+import { Home } from "./myComponent/businessWesiteComponents/Home";
+import { Navbar } from "./myComponent/businessWesiteComponents/Navbar";
+import { About }  from "./myComponent/businessWesiteComponents/About";
+import { Service } from "./myComponent/businessWesiteComponents/Service";
+import { Contact } from "./myComponent/businessWesiteComponents/Contact";
+import { Footer } from "./myComponent/businessWesiteComponents/Footer";
 import CreateResume from "./myComponent/createResume"
 
 function App() {

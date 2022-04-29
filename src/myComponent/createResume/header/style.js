@@ -11,6 +11,7 @@ const styles = ({
             border: "0px solid red",
         },
         disableUnderline: true,
+        autoFocus:false,
     },
     languageSx: {
         minWidth: 120,

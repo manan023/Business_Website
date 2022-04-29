@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from "./header/Header";
-import ProfileCompletness from './ProfileCompletness';
+import ProfileCompletness from './profileCompletness/ProfileCompletness';
 import PersonalDetails from './personalDetails/PersonalDetails';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
