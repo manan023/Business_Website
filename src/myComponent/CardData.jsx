@@ -1,9 +1,9 @@
-import  card_img1  from "F:/React Project/multipage-website/src/images/laptop.jpg";
-import  card_img2  from "F:/React Project/multipage-website/src/images/laptop_mobile.jpg";
-import  card_img3  from "F:/React Project/multipage-website/src/images/graphic designer.jpg";
-import  card_img4  from "F:/React Project/multipage-website/src/images/backend developer.jpg";
-import  card_img5  from "F:/React Project/multipage-website/src/images/application development.jpg";
-import  card_img6  from "F:/React Project/multipage-website/src/images/cyber security.jpg";
+import  card_img1  from "../images/laptop.jpg";
+import  card_img2  from "../images/laptop_mobile.jpg";
+import  card_img3  from "../images/graphic designer.jpg";
+import  card_img4  from "../images/backend developer.jpg";
+import  card_img5  from "../images/application development.jpg";
+import  card_img6  from "../images/cyber security.jpg";
 const CardData= [
     {
         img: card_img1,
