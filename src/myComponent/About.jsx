@@ -1,5 +1,5 @@
 import React from 'react'
-import web from "F:/React Project/multipage-website/src/images/about.jpg";
+import web from '../images/about.jpg';
 import { Common } from "./Common";
 
 export const About = () => {
