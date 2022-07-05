@@ -9,7 +9,6 @@ import { Service } from "./myComponent/Service";
 import { Contact } from "./myComponent/Contact";
 import { Footer } from "./myComponent/Footer";
 import UseEffectAPI from "./myComponent/UseEffectAPI";
-import UseCallback from "./myComponent/useCallback/useCallback";
 
 function App() {
   return (
@@ -22,7 +21,6 @@ function App() {
           <Route exact path="/about" element={<About />}></Route>
           <Route exact path="/contact" element={<Contact />}></Route>
           <Route exact path="/useEffect" element={<UseEffectAPI />}></Route>
-          <Route exact path="/useCallback" element={<UseCallback />}></Route>
         </Routes>
         <Footer />
       </Router>

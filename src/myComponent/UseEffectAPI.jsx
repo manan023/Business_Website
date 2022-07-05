@@ -1,29 +1,23 @@
 import React from "react";
 
 const UseEffectAPI = () => {
-
-  const [users, setusers] = React.useState([]);
-
-    const getUsers = async () => {
-        const response = await fetch('https://api.github.com/users')
-        console.log(response)
-        setusers(await response.json())
-        console.log(users, "This is the data")
-    }
-
-    React.useEffect(() => {
-        getUsers();
-    }, [])
+  const [users, setUsers] = React.useState([])
+  const getUsers = async () => {
+    const fetchData = fetch('https://api.github.com/users')
+    const userData = JSON.parse(fetchData)
+    console.log(userData)
+  }
+  React.useEffect(() => {
+    getUsers()
+  }, [])
   return (
     <>
       <div style={{display: 'flex', flexDirection : 'row', flexWrap: 'wrap', marginRight: '20px'}}>
-        {users.map((curElem, index) => {
-          return(
-            <div key={index}>
-          <h4>{curElem.login}</h4>
+            <div>
+          <h4>Check</h4>
           <div>
-            <span>{curElem.User}</span>
-            <span>{curElem.id}</span>
+            <span>Check</span>
+            <span>Check</span>
           </div>
           <div>
             <span>Folowers</span>
@@ -35,9 +29,6 @@ const UseEffectAPI = () => {
           </div>
           <div></div>
         </div>
-          )
-          
-        })}
       </div>
     </>
   );
