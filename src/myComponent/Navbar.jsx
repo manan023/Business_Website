@@ -31,6 +31,9 @@ export const Navbar = () => {
                                         <li className="nav-item">
                                             <NavLink activeclassname="menu_active" className="nav-link" to="/useEffect">useEffect</NavLink>
                                         </li>
+                                        <li className="nav-item">
+                                            <NavLink activeclassname="menu_active" className="nav-link" to="/useCallback">useCallback</NavLink>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
